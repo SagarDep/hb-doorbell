@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.androidthings.doorbell"
-        minSdkVersion 22
+        minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -25,6 +25,7 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-database:0.5.3'
     implementation 'com.android.support:recyclerview-v7:27.0.+'
     implementation 'com.android.support:appcompat-v7:27.0.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 }
 
 apply plugin: 'com.google.gms.google-services'
